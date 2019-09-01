@@ -38,7 +38,7 @@ ticket-service-DML.sql
 ```
 3.Clone a project from github
 ```
-git clone
+git clone https://github.com/abhijiremaniche/ticket-service-app.git
 ```
 4 create local git repository with and add gateway-server, ticket-service folders with ticket-service.yml & gateway-server.yml
 ```
