@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: gateway-server
+  profiles:
+    active:
+      default
+    
+  cloud:
+    config:
+      enabled: true
+      discovery:
+        service-id: config-server
+

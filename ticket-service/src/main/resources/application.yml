@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ticket-service
+  profiles:
+    active: default   
+  cloud:
+    config:
+      enabled: true
+      discovery:
+        service-id: config-server
