@@ -26,6 +26,8 @@ Your homework assignment is to design and write a Ticket Service that provides t
   - Apache Derby 
   - Maven
   - Logback
+  -git
+  
 
 ### Project build Instrunctions
 1.Create Database  with below scripts file
