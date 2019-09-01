@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+eureka:
+ instance:
+  preferIpAddress: true
+ client:
+  registerWithEureka: true
+  fetchRegistry: true
+  serviceUrl:
+    defaultZone: http://localhost:8761/eureka/ 
+spring:
+  datasource:
+    driverclassname: org.apache.derby.jdbc.ClientDriver    
+    url: jdbc:derby://localhost:1527/ticketservicedb;create=false   
+  jpa:
+    properties:  
+      hibernate:  
+        current_session_context_class: thread
+        dialect: org.hibernate.dialect.DerbyTenSevenDialect
+        format_sql: false;
+        hbm2ddl:
+          auto: update
+        show_sql: false 
+seatholdtimeout:
+          60
