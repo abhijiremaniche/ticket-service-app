@@ -7,14 +7,7 @@ For example, see the seating arrangement below.
         ----------[[  STAGE  ]]----------
         ---------------------------------
         sssssssssssssssssssssssssssssssss
-        sssssssssssssssssssssssssssssssss
-        sssssssssssssssssssssssssssssssss
-        sssssssssssssssssssssssssssssssss
-        sssssssssssssssssssssssssssssssss
-        sssssssssssssssssssssssssssssssss
-        sssssssssssssssssssssssssssssssss
-        sssssssssssssssssssssssssssssssss
-        sssssssssssssssssssssssssssssssss
+      
 Your homework assignment is to design and write a Ticket Service that provides the following functions:
 ·         Find the number of seats available within the venue Note: available seats are seats that are neither held nor reserved.
 ·         Find and hold the best available seats on behalf of a customer Note: each ticket hold should expire within a set number of seconds. 
