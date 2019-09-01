@@ -77,28 +77,48 @@ java -jar ticket-service-0.0.1-SNAPSHOT.jar
 ### Test Scenarios
 ###### Find the number of seats available within the venue
   - Service should   return correct number of seats for specified Location ID and event Id.
+  ![Image description](https://github.com/abhijiremaniche/ticket-service-app/blob/master/img/1.png)
    - Service should also return valid error message when Location ID or event Id  is invalid.
-
+ ![Image description](https://github.com/abhijiremaniche/ticket-service-app/blob/master/img/2.png)
+  ![Image description](https://github.com/abhijiremaniche/ticket-service-app/blob/master/img/3.png)
 ###### Find and hold the best available seats for a customer
 -  Service should hold requested number of seats for a customer.
--  Service should return valid error message when   user id is invalid.
+  ![Image description](https://github.com/abhijiremaniche/ticket-service-app/blob/master/img/4.png)
+-  Service should return valid error message when  user id, location Id or event ID is invalid.
+  ![Image description](https://github.com/abhijiremaniche/ticket-service-app/blob/master/img/5.png)
+    ![Image description](https://github.com/abhijiremaniche/ticket-service-app/blob/master/img/7.png) 
+    ![Image description](https://github.com/abhijiremaniche/ticket-service-app/blob/master/img/6.png)
 -  Service should show valid error message when no seats are available to hold.
+ ![Image description](https://github.com/abhijiremaniche/ticket-service-app/blob/master/img/8.png) 
+  ![Image description](https://github.com/abhijiremaniche/ticket-service-app/blob/master/img/9.png) 
+ 
 -  Service should not count hold seats as available seats
+  ![Image description](https://github.com/abhijiremaniche/ticket-service-app/blob/master/img/10.png) 
+
 - Service should count expired seat hold as available seat.
 
 ###### Commit seats held for a specific customer
 - Service should hold reserve seats based on seat hold id.
+   ![Image description](https://github.com/abhijiremaniche/ticket-service-app/blob/master/img/11.png) 
+   
 - Service should return valid error message when hold id is Invalid
+![Image description](https://github.com/abhijiremaniche/ticket-service-app/blob/master/img/13.png) 
 - Service should return valid error message when hold id is Expired
+ ![Image description](https://github.com/abhijiremaniche/ticket-service-app/blob/master/img/12.png) 
 - Service should return valid error message when dupliate hold id request is submitted.
+ ![Image description](https://github.com/abhijiremaniche/ticket-service-app/blob/master/img/14.png) 
+
+ 
 
 ###### Test Results
  To junit run below command
  ```sh
  mvn test
 ```
-### Databse Design
+  ![Image description](https://github.com/abhijiremaniche/ticket-service-app/blob/master/img/15.png) 
   
+### Databse Design
+   ![Image description](https://github.com/abhijiremaniche/ticket-service-app/blob/master/img/database_diagram.png) 
 ### Application Services
 ##### Naming Service:
 It mainly provides
