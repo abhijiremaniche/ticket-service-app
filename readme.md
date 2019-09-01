@@ -40,7 +40,7 @@ ticket-service-DML.sql
 ```
 git clone https://github.com/abhijiremaniche/ticket-service-app.git
 ```
-4 create local git repository with and add gateway-server, ticket-service folders with ticket-service.yml & gateway-server.yml
+4 create local git repository with and add gateway-server, ticket-service folders with ticket-service.yml & gateway-server.yml. update git file location in config server(ticket-service-app/config-server/src/main/resources/application.yml)
 ```
 git init
 ```
