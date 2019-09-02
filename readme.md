@@ -30,7 +30,7 @@ Your homework assignment is to design and write a Ticket Service that provides t
   
 
 ### Project build Instrunctions
-1.Create Database  with below scripts file
+1.You can refer database "ticketservicedb"  DDL under resources folder. Ticket service should create database automatically for you.
 ```
 ticket-service-DDL.sql
 ```
@@ -42,7 +42,8 @@ ticket-service-DML.sql
 ```
 git clone https://github.com/abhijiremaniche/ticket-service-app.git
 ```
-4 create local git repository  and add gateway-server, ticket-service folders with ticket-service.yml & gateway-server.yml. update git file location in config server(ticket-service-app/config-server/src/main/resources/application.yml)
+4 create local git repository  and add gateway-server, ticket-service folders with ticket-service.yml & gateway-server.yml. update git file location in config server(ticket-service-app/config-server/src/main/resources/application.yml) e.g.
+ spring.cloud.config.server.git.uri property : file:///Users/Aremanic/Documents/config-server-repository
 ```
 git init
 ```
