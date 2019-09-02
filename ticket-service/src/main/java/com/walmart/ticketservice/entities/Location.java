@@ -21,7 +21,7 @@ public class Location implements Serializable {
 	@Column(name="LOCATION_ID")
 	private Long locationId;
 
-	@Column(name="\"LOCATION ADDRESS\"")
+	@Column(name= "LOCATION_ADDRESS")
 	private String locationAddress;
 
 	@Column(name="LOCATION_NM")
