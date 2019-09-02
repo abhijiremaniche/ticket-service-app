@@ -30,7 +30,8 @@ Your homework assignment is to design and write a Ticket Service that provides t
   
 
 ### Project build Instrunctions
-1.You can refer database "ticketservicedb"  DDL under resources folder. Ticket service should create database automatically for you.
+1.You can refer database "ticketservicedb"  DDL under resources folder. Ticket service should create database automatically for you. Also make sure you have sequence added from below file. Specially SEAT_HOLD_ID_GENERATOR
+
 ```
 ticket-service-DDL.sql
 ```
