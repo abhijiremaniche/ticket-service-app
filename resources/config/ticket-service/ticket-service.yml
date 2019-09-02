@@ -12,7 +12,7 @@ eureka:
 spring:
   datasource:
     driverclassname: org.apache.derby.jdbc.ClientDriver    
-    url: jdbc:derby://localhost:1527/ticketservicedb;create=false   
+    url: jdbc:derby://localhost:1527/ticketservicedb;create=true   
   jpa:
     properties:  
       hibernate:  
