@@ -43,7 +43,7 @@ ticket-service-DML.sql
 git clone https://github.com/abhijiremaniche/ticket-service-app.git
 ```
 4 create local git repository  and add gateway-server, ticket-service folders with ticket-service.yml & gateway-server.yml. update git file location in config server(ticket-service-app/config-server/src/main/resources/application.yml) e.g.
- spring.cloud.config.server.git.uri property : file:///Users/Aremanic/Documents/config-server-repository
+ spring.cloud.config.server.git.uri property : file:///Users/Aremaniche/Documents/config-server-repository
 ```
 git init
 ```
